@@ -1,0 +1,10 @@
+﻿CREATE TABLE CNPJDLX (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    CNPJ VARCHAR(14) NOT NULL,
+    RazaoSocial NVARCHAR(255),
+    NomeFantasia NVARCHAR(255),
+    Situacao NVARCHAR(50),
+    CNAE NVARCHAR(100),
+    Endereco NVARCHAR(255),
+    DataConsulta DATETIME DEFAULT GETDATE()
+);
