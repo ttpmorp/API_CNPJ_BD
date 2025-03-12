@@ -4,7 +4,7 @@
     RazaoSocial NVARCHAR(255),
     NomeFantasia NVARCHAR(255),
     Situacao NVARCHAR(50),
-    CNAE NVARCHAR(100),
+    CNAE NVARCHAR(200), //alterado para NVARCHAR200
     Endereco NVARCHAR(255),
     DataConsulta DATETIME DEFAULT GETDATE()
 );
